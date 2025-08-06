@@ -1,6 +1,6 @@
 <template>
   <div class="w-full max-w-3xl mx-auto p-4 bg-white rounded-lg shadow">
-    <h2 class="text-lg font-semibold mb-4">Signups by Date</h2>
+    <h2 class="text-xs text-gray-500 space-x-2.5 font-bold  mb-4">Signups by Date</h2>
     <Bar :data="chartData" :options="chartOptions" />
   </div>
 </template>
